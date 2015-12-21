@@ -11,6 +11,9 @@ buildscript {
 }
 
 apply plugin: 'kotlin'
+apply plugin: 'application'
+
+mainClassName = "io.github.importre.playkotlin.MainKt"
 
 sourceSets {
     main.java.srcDirs += 'src/main/kotlin'
